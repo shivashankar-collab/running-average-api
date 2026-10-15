@@ -1,0 +1,19 @@
+{
+  "name": "running-average-api",
+  "version": "1.0.0",
+  "description": "A REST API that returns the average of all submitted numbers.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "husky": "^9.1.7"
+  }
+}
